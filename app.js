@@ -108,7 +108,7 @@ const generador = async () => {
   console.log(await pm.addProducts(producto1))
 };
 
-const pm = new ProductManager;
-pm.getProductByID(1);
+// const pm = new ProductManager;
+// pm.getProductByID(1);
 export default ProductManager;
 
